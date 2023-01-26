@@ -19,6 +19,7 @@
 .header-icon__wrapper {
   position: absolute;
   right: 15px;
+  top: 12px;
 }
 
 .alert-icon {
@@ -27,8 +28,10 @@
 
 .alert-icon img {
   width: 20px;
+  height: 20px;
 }
 
 .profile-icon img {
   width: 20px;
+  height: 20px;
 }
