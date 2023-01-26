@@ -7,6 +7,8 @@
 .footer-wrapper {
   width: 360px;
   background-color: #dcdcdc;
+  /* position : fixed;
+  bottom : 0; */
 }
 
 .footer-wrapper__reduce {
@@ -27,7 +29,7 @@
 /* left */
 /* 좌측 정보 */
 .footer-info__detail {
-  font-size: 11px;
+  font-size: 0.625rem;
 }
 
 /* 푸터 정보 타이틀 */
@@ -84,7 +86,7 @@
 /* right */
 /* 우측 정보 */
 .footer-info__text {
-  font-size: 10px;
+  font-size: 0.625rem;
   zoom: 0.9;
   text-align: right;
   border-right: 1px solid black;

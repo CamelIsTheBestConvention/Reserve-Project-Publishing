@@ -2,5 +2,58 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid black;
 }
+
+.index-wrapper {
+  width: 360px;
+  background-color: aquamarine;
+}
+
+main {
+  padding-top: 45px;
+}
+
+/* 검색위치 박스 고정 */
+.main-fixed {
+  position: fixed;
+}
+
+/* 검색창 박스 */
+.search {
+  width: 360px;
+  padding: 10px 0;
+}
+
+/* 검색창 */
+.search-box {
+  margin: 0 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.form-wrapper {
+  display: flex;
+}
+
+/* 입력창 */
+.search-input {
+  width: 305px;
+  margin-left: 5px;
+  height: 25px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+/* 검색버튼 */
+.search-btn {
+  cursor: pointer;
+  width: 25px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+/* 위치 */
+
