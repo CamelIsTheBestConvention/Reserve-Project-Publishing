@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-wrapper {
+  width: 360px;
+  padding: 10px 0;
+  display: flex;
+  background-color: antiquewhite;
+  position: fixed;
+}
+
+.header-logo {
+  margin: 0 auto;
+}
+
+.header-icon__wrapper {
+  position: absolute;
+  right: 15px;
+}
+
+.alert-icon {
+  margin-right: 5px;
+}
+
+.alert-icon img {
+  width: 20px;
+}
+
+.profile-icon img {
+  width: 20px;
+}

@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+.footer-wrapper {
+  width: 360px;
+  background-color: #dcdcdc;
+}
+
+.footer-wrapper__reduce {
+  padding: 10px;
+}
+
+/* 푸터 로고 */
+.footer-wrapper__in {
+  margin-bottom: 5px;
+}
+
+/* 푸터 정보 */
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* left */
+/* 좌측 정보 */
+.footer-info__detail {
+  font-size: 11px;
+}
+
+/* 푸터 정보 타이틀 */
+.footer-info__title {
+  padding-right: 3px;
+  border-right: 1px solid grey;
+  width: 45px;
+  height: 14px;
+  margin: auto 0;
+}
+
+/* 정보 높이 간격 */
+.title-height {
+  margin-bottom: 4px;
+}
+
+/* 푸터 정보 내용 좌 간격*/
+.info-margin--left {
+  margin-left: 4px;
+}
+
+/* 고객센터 */
+.phone {
+  display: flex;
+  height: 15px;
+}
+
+.phone-number {
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 0 4px;
+}
+
+.phone-number img {
+  width: 8px;
+  margin-right: -3px;
+}
+
+/* 24시간 */
+.time {
+  margin: 0 0 4px 54px;
+}
+
+/* 대표이사 */
+.master {
+  display: flex;
+}
+
+/* 주소 */
+.address {
+  display: flex;
+}
+
+/* right */
+/* 우측 정보 */
+.footer-info__text {
+  font-size: 10px;
+  zoom: 0.9;
+  text-align: right;
+  border-right: 1px solid black;
+  height: 80px;
+}
+
+.footer-info__text p {
+  padding-right: 4px;
+  margin: 2px;
+}
