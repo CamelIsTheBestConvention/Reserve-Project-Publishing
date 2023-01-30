@@ -207,27 +207,41 @@ main {
 .often-find__wrapper {
   width: 350px;
   height: 180px;
-  /* border: 1px solid black; */
-  border-radius: 10px;
   overflow: hidden;
   display: flex;
 }
 
+.often-find__wrapper button {
+  background-color: #fff;
+  border: none;
+  font-size: 15px;
+  margin: 3px;
+}
+
 .often-find__content {
-  border: 1px solid lightgray;
+  border: 1px solid #d9d9d9;
   border-radius: 10px;
-  width: 120px;
-  background-color: lightgray;
-  margin-right: 5px;
+  width: 100px;
+  background-color: #d9d9d9;
+  margin-right: 10px;
+}
+
+.content-end {
+  margin-right: 0;
 }
 
 .often-find__content__box {
   width: 100px;
-  margin: 10px auto;
+  margin: 6px auto;
+}
+
+.often-find__content__img {
+  margin-left: 4px;
 }
 
 .often-find__content__img img {
-  width: 100px;
+  width: 90px;
+  margin: 0 auto;
   border-radius: 10px;
 }
 
