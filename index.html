@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BINZARI</title>
     <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/header.css" />
   </head>
   <body>
     <!-- 모바일 틀 -->
@@ -38,9 +38,15 @@
               <!-- 입력 -->
               <form action="https://search.naver.com/search.naver">
                 <div class="form-wrapper">
-                  <input type="text" placeholder="어디로 가고 싶으세요?" class="search-input"/>
+                  <input
+                    type="text"
+                    placeholder="어디로 가고 싶으세요?"
+                    class="search-input"
+                  />
                   <!-- 버튼 -->
-                  <button type="submit" class="search-btn"><img src="img/search-interface-symbol 2.png" alt=""></button>
+                  <button type="submit" class="search-btn">
+                    <img src="img/search-interface-symbol 2.png" alt="" />
+                  </button>
                 </div>
               </form>
             </article>
@@ -49,155 +55,208 @@
           <!-- 위치 -->
           <section class="direction">
             <!-- 좌표 -->
-            <article>
-              <img src="" alt="" />
-              <div></div>
+            <article class="direction-box">
+              <img src="img/pin 1.png" alt="" />
+              <div class="detail-direction">
+                <ul>
+                  <li>서울특별시 강남구 테헤란로 146</li>
+                </ul>
+                <img src="/img/down-arrow (1) 3.png" alt="" />
+              </div>
             </article>
             <!-- 현재 좌표 -->
-            <article>
-              <img src="" alt="" />
+            <article class="location">
+              <img src="img/location 1.png" alt="" />
             </article>
           </section>
         </section>
 
         <!-- 업종 카테고리 -->
-        <section>
-          <article>
+        <section class="leisure">
+          <article class="leisure-box">
             <!-- 업종 아이콘 -->
-            <img src="" alt="" />
+            <img src="img/sort 1.png" alt="" />
             <!-- 업종 타이틀 -->
-            <span></span>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
-            <p>dd</p>
+            <span>업종</span>
           </article>
-          <nav>
+          <nav class="leisure-field">
             <!-- 카테고리 테이블 분류 -->
             <table>
+              <!-- 첫줄 이미지 -->
               <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>
+                  <div><img src="img/computer 1.png" alt="피시방" /></div>
+                </td>
+                <td>
+                  <div><img src="img/karaoke 1.png" alt="노래방" /></div>
+                </td>
+                <td>
+                  <div><img src="img/cue 1.png" alt="당구장" /></div>
+                </td>
+                <td>
+                  <div><img src="img/billiards 1.png" alt="포켓볼" /></div>
+                </td>
+                <td>
+                  <div class="background__lightgray">
+                    <p class="not-service">서비스</p>
+                    <p>제공예정</p>
+                    <p>입니다</p>
+                  </div>
+                </td>
               </tr>
-
+              <!-- 첫줄 텍스트 -->
+              <tr class="leisure-field__text">
+                <td>PC방</td>
+                <td>노래방</td>
+                <td>당구장</td>
+                <td>포켓볼</td>
+                <td>볼링장</td>
+              </tr>
+              <!-- 둘째줄 이미지 -->
               <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>
+                  <div class="background__lightgray">
+                    <p class="not-service">서비스</p>
+                    <p>제공예정</p>
+                    <p>입니다</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="background__lightgray">
+                    <p class="not-service">서비스</p>
+                    <p>제공예정</p>
+                    <p>입니다</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="background__lightgray">
+                    <p class="not-service">서비스</p>
+                    <p>제공예정</p>
+                    <p>입니다</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="background__lightgray">
+                    <p class="not-service">서비스</p>
+                    <p>제공예정</p>
+                    <p>입니다</p>
+                  </div>
+                </td>
+                <td>
+                  <div class="background__lightgray">
+                    <p class="not-service">서비스</p>
+                    <p>제공예정</p>
+                    <p>입니다</p>
+                  </div>
+                </td>
+              </tr>
+              <!-- 둘째줄 텍스트 -->
+              <tr class="leisure-field__text">
+                <td>탁구장</td>
+                <td>보드게임</td>
+                <td>마사지</td>
+                <td>카페</td>
+                <td>스터디카페</td>
               </tr>
             </table>
           </nav>
         </section>
 
         <!-- 자주 찾는 매장 -->
-        <section>
-          <!-- 매장 아이콘 명 -->
-          <article>
-            <div>
-              <img src="" alt="" />
-              <span></span>
-            </div>
-          </article>
+        <section class="often-find">
+          <article class="often-find-box">
+            <!-- 매장 아이콘 명 -->
+            <article class="often-find__title">
+              <img src="img/pin (2) 1.png" alt="자주 찾는 매장" />
+              <span>자주 찾는 매장</span>
+            </article>
 
-          <!-- 매장 사진들 -->
-          <article>
-            <div>
-              <!-- 매장 이미지 -->
-              <img src="" alt="" />
-              <!-- 매장 명 -->
-              <div></div>
-              <!-- 매장 설명 -->
-              <p></p>
-              <p></p>
-              <p></p>
-            </div>
+            <!-- 매장 사진들 -->
+            <article class="often-find__wrapper">
+              <article class="often-find__content">
+                <div class="often-find__content__box">
+                  <!-- 매장 이미지 -->
+                  <div class="often-find__content__img">
+                    <img src="img/jeju-billiard.jpg" alt="" />
+                  </div>
+                  <!-- 매장 명 -->
+                  <div class="often-find__content__title">
+                    <span>제주당구장</span>
+                    <span>☆</span>
+                  </div>
+                  <!-- 매장 설명 -->
+                  <div class="often-find__content__text">
+                    <span>남은 자리</span>
+                    <span>1/6</span>
+                  </div>
+                  <div class="often-find__content__text">
+                    <span>요금</span>
+                    <span>1000원/10분</span>
+                  </div>
+                  <div class="often-find__content__text">
+                    <span>현재위치부터</span>
+                    <span>3분</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="often-find__content">
+                <div class="often-find__content__box">
+                  <!-- 매장 이미지 -->
+                  <div class="often-find__content__img">
+                    <img src="img/jeju-billiard.jpg" alt="" />
+                  </div>
+                  <!-- 매장 명 -->
+                  <div class="often-find__content__title">
+                    <span>제주당구장</span>
+                    <span>☆</span>
+                  </div>
+                  <!-- 매장 설명 -->
+                  <div class="often-find__content__text">
+                    <span>남은 자리</span>
+                    <span>1/6</span>
+                  </div>
+                  <div class="often-find__content__text">
+                    <span>요금</span>
+                    <span>1000원/10분</span>
+                  </div>
+                  <div class="often-find__content__text">
+                    <span>현재위치부터</span>
+                    <span>3분</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="often-find__content">
+                <div class="often-find__content__box">
+                  <!-- 매장 이미지 -->
+                  <div class="often-find__content__img">
+                    <img src="img/jeju-billiard.jpg" alt="" />
+                  </div>
+                  <!-- 매장 명 -->
+                  <div class="often-find__content__title">
+                    <span>제주당구장</span>
+                    <span>☆</span>
+                  </div>
+                  <!-- 매장 설명 -->
+                  <div class="often-find__content__text">
+                    <span>남은 자리</span>
+                    <span>1/6</span>
+                  </div>
+                  <div class="often-find__content__text">
+                    <span>요금</span>
+                    <span>1000원/10분</span>
+                  </div>
+                  <div class="often-find__content__text">
+                    <span>현재위치부터</span>
+                    <span>3분</span>
+                  </div>
+                </div>
+              </article>
+            </article>
+            <article class="please-login__wrapper">
+              <p class="please-login">로그인이 필요합니다.</p>
+            </article>
           </article>
         </section>
       </main>
