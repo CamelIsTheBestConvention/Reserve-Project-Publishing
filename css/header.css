@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+.home-logo {
+  position: absolute;
+  top: 12px;
+  left: 20px;
+}
+
 .header-wrapper {
   width: 100%;
   padding: 10px 0;
@@ -34,4 +40,8 @@
 .profile-icon img {
   width: 20px;
   height: 20px;
+}
+
+.blank {
+  height: 60px;
 }
