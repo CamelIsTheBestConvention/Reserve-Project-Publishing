@@ -68,6 +68,11 @@ main {
   justify-content: space-between;
 }
 
+.id-type-total:hover {
+  cursor: pointer;
+  border-bottom: 2px solid #5ec48d;
+}
+
 .id-type-normal img {
   width: 15px;
   height: 15px;
@@ -94,6 +99,11 @@ main {
 
 .email-input {
   display: flex;
+}
+
+.email-input button:hover {
+  background-color: #5ec48d;
+  cursor: pointer;
 }
 
 .email-input::placeholder {
@@ -137,6 +147,7 @@ main {
 }
 
 .pw-input input {
+  width: 70%;
   border: none;
   padding-bottom: 5px;
   padding-left: 5px;
@@ -224,4 +235,8 @@ main {
   border: none;
   background-color: #afafaf;
   margin-bottom: 40px;
+}
+
+.join-btn:hover {
+  background-color: #8fffa9;
 }
